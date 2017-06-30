@@ -1,0 +1,15 @@
+cron:
+- description: morning text
+  url: /messages?action=morning
+  schedule: every mon,wed,fri 09:00
+  timezone: Asia/Singapore
+
+- description: afternoon text
+  url: /messages?action=afternoon
+  schedule: every mon,wed,fri 15:00
+  timezone: Asia/Singapore
+
+- description: night text
+  url: /messages?action=night
+  schedule: every mon,wed,fri 20:00
+  timezone: Asia/Singapore
